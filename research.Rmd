@@ -1,0 +1,99 @@
+---
+title: "Research"
+---
+
+ATLAS projects focus on cancer, cardiovascular disease, neurological disease, and the use of AI in medicine, with attention to equity throughout.
+
+## Cancer
+
+<div class="card">
+<h4>Computational Synthesis of Inflammatory and Nutritional Biomarker Signatures for Precision Risk Stratification in NSCLC Immunotherapy: A Translational Bioinformatics Approach</h4>
+Routine blood tests capture systemic inflammation (NLR, CRP, IL-6) and nutritional reserve (PNI, BMI, albumin), yet published cutoffs vary and real world cohorts are rarely compared with randomized trial data. This evidence synthesis combined 17 cohort studies from PubMed, Scopus, and Embase (596 records screened) with 12 post hoc analyses of phase 2 and 3 trials, including OAK, POPLAR, IMpower150, and CheckMate 017 and 057. Log hazard ratios were pooled with random effects models and Hartung Knapp intervals.
+
+<div class="stats" style="margin:18px 0;grid-template-columns:repeat(3,1fr)">
+<div class="stat"><strong>2.09</strong><span>pooled OS hazard ratio, high vs low inflammation</span></div>
+<div class="stat"><strong>1.59</strong><span>pooled PFS hazard ratio, high vs low inflammation</span></div>
+<div class="stat"><strong style="font-size:1.6em">2.93 vs 1.78</strong><span>OS hazard ratio in cohorts vs trials</span></div>
+</div>
+
+Inflammatory indices are robust prognostic markers, but cohort estimates overstate trial level effects and need calibration before clinical use. In the OAK trial, NLR carried similar risk under docetaxel, so it behaved as a prognostic marker, while obesity favored atezolizumab over docetaxel, suggesting nutrition may be predictive.
+<br><em>Team: Tanvi Chakka, Twesha Singh, Sriram Siva, Shivam Loyalka</em>
+</div>
+
+<div class="card">
+<h4>Closing the Equity Gap in Skin Cancer Diagnosis Through AI-Assisted Primary Care: A Process Improvement Framework</h4>
+Among U.S. adults aged 21 to 75 newly diagnosed with cutaneous squamous cell carcinoma (SCC), does growing reliance on AI-assisted diagnostics such as FotoFinder Moleanalyzer Pro and DermaSensor influence disparities in specialist access, treatment continuity, and post-treatment health and financial well-being? This scoping review searched PubMed, Scopus, and EBSCO, screening 1,193 records and 20 full texts to include 16 studies, with 47 data fields extracted per study.
+
+<div class="stats" style="margin:18px 0;grid-template-columns:repeat(3,1fr)">
+<div class="stat"><strong>+0.051</strong><span>pooled AUC gain with AI assistance</span></div>
+<div class="stat"><strong>97.1%</strong><span>White participants in the DermaSensor FDA pivotal cohort</span></div>
+<div class="stat"><strong>7.3×</strong><span>Medicaid reach of teledermatology vs in person care</span></div>
+</div>
+
+Without correction, AI diagnostics are more likely to widen SCC outcome gaps for low income patients than close them. Biased training data and weak reimbursement policy keep accurate tools in already well resourced settings, but equity centered delivery models such as teledermatology show that access gaps can close when care is designed for it. Presented as an oral talk at the Stanford Lean Healthcare conference.
+<br><em>Team: Swaroop Kadiyam, Siddharth Mothukuri, Rithvika Venkatraman, Saisreeda Vutkuri</em>
+</div>
+
+## Cardiovascular and metabolic disease
+
+<div class="card">
+<h4>Cardiovascular disease prediction: what risk models measure and who they miss</h4>
+This team ran one systematic review in two versions, using the same evidence base with a general extraction and a sex stratified extraction.
+
+<div class="version-title">Version 1: Evaluating the Predictive Value of Biomarkers, Genetic Scores, and Machine Learning in Cardiovascular Risk Prediction Models: A Systematic Review</div>
+How often do adult cardiovascular prediction models include socioeconomic and psychosocial predictors, and how do gains from machine learning compare with gains from adding social, biomarker, or genetic predictors? The review covered 40 prediction studies across community cohorts such as ARIC, UK Biobank, and ASPREE and disease specific groups including heart failure, atrial fibrillation, HIV, and rheumatoid arthritis.
+
+<div class="stats" style="margin:18px 0;grid-template-columns:repeat(3,1fr)">
+<div class="stat"><strong>0</strong><span>models that included any psychosocial predictor</span></div>
+<div class="stat"><strong style="font-size:1.6em">0.02 to 0.05</strong><span>typical AUC gain from machine learning</span></div>
+<div class="stat"><strong style="font-size:1.6em">0.687 → 0.732</strong><span>heart failure C statistic after adding NT proBNP</span></div>
+</div>
+
+Measuring social context mattered more than model complexity. In ARIC, Framingham scoring overestimated 10 year coronary risk by 17.5% in high SES adults and underestimated it by 24% in low SES adults, and adding individual SES removed this bias. A block group income measure worked about as well as individual SES, while a zip code measure only reduced the bias. Presented at MAA MathFest 2026 in Boston.
+
+<div class="version-title">Version 2: Invisible Risks: How Current Cardiovascular Prediction Models Underserve Women Across Socioeconomic and Psychosocial Contexts</div>
+Across cardiovascular prediction models in adults, how often are socioeconomic and psychosocial determinants included, and does including them improve calibration, discrimination, or risk classification for women compared with models built only on traditional clinical predictors? The search of PubMed, Scopus, and Embase identified 2,770 records and 197 full texts, with 28 studies included.
+
+<div class="stats" style="margin:18px 0;grid-template-columns:repeat(3,1fr)">
+<div class="stat"><strong>28</strong><span>studies included from 2,770 records</span></div>
+<div class="stat"><strong style="font-size:1.6em">+0.029</strong><span>C statistic gain for coronary disease in women with high sensitivity troponin T</span></div>
+<div class="stat"><strong style="font-size:1.6em">0.040 to 0.057</strong><span>heart failure discrimination gain with troponin plus NT proBNP</span></div>
+</div>
+
+Traditional clinical variables remained the core predictors, socioeconomic measures were rarely included, and depression, stress, social isolation, and caregiving burden were largely absent. Biomarkers modestly improved prediction, but they cannot replace measuring the social context that shapes women's cardiovascular risk. Presented at the Harvard T.H. Chan Women's Health Conference.
+<br><em>Team: Srikrithi Appikatla, Dhilan Avula, Venkat Narra, Nandita Sriram</em>
+</div>
+
+<div class="card">
+<h4>Autonomous Artificial Intelligence vs. Traditional Specialist Referral for Diabetic Retinopathy Screening in Medicare Beneficiaries: A Systematic Scoping Review</h4>
+For patients 18 and older, is an autonomous AI diagnostic system for diabetic retinopathy in a clinical setting more efficient than the standard referral to an eye care specialist? Diabetic retinopathy is a leading cause of preventable blindness, yet fewer than 1 in 1,000 eligible patients receive AI screening in primary care. Studies were screened in Rayyan with blinded and unblinded conflict resolution.
+
+<div class="stats" style="margin:18px 0;grid-template-columns:repeat(3,1fr)">
+<div class="stat"><strong style="font-size:1.6em">86 to 100%</strong><span>sensitivity for referable diabetic retinopathy</span></div>
+<div class="stat"><strong style="font-size:1.6em">95 to 100%</strong><span>negative predictive value</span></div>
+<div class="stat"><strong>0.1%</strong><span>of eligible patients billed for AI screening, 2021 to 2023</span></div>
+</div>
+
+AI screening offers a reliable safety net for ruling out disease in primary care, and pupil dilation protocols cut ungradable images sharply (from 44.9% to 8.3% in Mayo Clinic telemedicine). Positive predictive value varied widely (6 to 73%) with disease prevalence, and high upfront cost and fragmented electronic health records still limit use. Embedding AI directly into existing records systems could bring screening to rural areas with few ophthalmologists.
+<br><em>Team: Raga Battu, Rithvik Inampudi, Abhinav Premkumar, Pranjal Sabuwala</em>
+</div>
+
+## Neurological disease
+
+<div class="card">
+<h4>A Meta-Analysis: The Impact of Patient-Level Risk Factors on the Rate of Neurodegenerative Progression when using Dopaminergic Therapy</h4>
+Among adults with Parkinson's disease receiving dopaminergic therapy, which patient level risk factors are linked with faster neurodegeneration, such as greater annual UPDRS worsening, earlier dyskinesia onset, or faster DAT-SPECT decline? Following PRISMA guidelines, the team screened studies published from 2008 to 2025 in Rayyan, drew on cohorts and registries including PPMI, PRECEPT, PROPARK, and CamPaIGN, and pooled estimates with DerSimonian Laird random effects models.
+
+<div class="stats" style="margin:18px 0;grid-template-columns:repeat(3,1fr)">
+<div class="stat"><strong>49</strong><span>studies including 8,647 patients</span></div>
+<div class="stat"><strong>3.92</strong><span>pooled risk of cognitive decline with levodopa induced dyskinesia</span></div>
+<div class="stat"><strong>0.46</strong><span>pooled hazard ratio for elevated serum urate (protective)</span></div>
+</div>
+
+Overall, prognostic factors were linked with a 42% higher risk of adverse progression (pooled HR 1.42). GBA mutation carriers had more than double the risk (HR 2.15), and female sex was associated with more motor complications (2.36). Levodopa induced dyskinesia and GBA mutations are the most consistent targets for risk stratification and clinical trial enrichment.
+<br><em>Team: Soham Gupta, Rhea Jha, Arjun Paunikar, Samhithaa Sivakumar</em>
+</div>
+
+## Coming next
+
+Our second cohort is developing new questions in AI and public health, including rare disease diagnosis with large language models, surgical access, and wearable based cardiovascular prediction for healthcare workers.

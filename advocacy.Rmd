@@ -1,0 +1,57 @@
+---
+title: "Advocacy"
+---
+
+ATLAS students turn research evidence into practical tools and policy recommendations for public health decision makers. Our advocacy work runs alongside our research, so each project moves from what the evidence shows to what health systems can do about it.
+
+<div class="section-label">Our aims</div>
+
+<div class="steps">
+<div class="card step"><span class="num"><i class="fa fa-flag-usa"></i></span><h4>Nationwide reach</h4>We aim to bring our tools and recommendations to communities across the United States, wherever the evidence shows gaps in prevention, early diagnosis, and access to care.</div>
+<div class="card step"><span class="num"><i class="fa fa-city"></i></span><h4>New York City focus</h4>Our primary partnership work is in New York City, where our director is based and can work directly with local health departments, clinics, and community organizations.</div>
+<div class="card step"><span class="num"><i class="fa fa-handshake"></i></span><h4>A direct liaison</h4>Janvi Garg serves as the liaison between ATLAS students and public health partners, presenting student work and coordinating every collaboration.</div>
+</div>
+
+<p style="margin-top:22px">Interested in partnering with our advocacy teams? Contact Janvi Garg at <a href="mailto:ijanvgarg@gmail.com">ijanvgarg@gmail.com</a>.</p>
+
+## AI Diabetes and Skin Cancer Screening
+
+<div class="card">
+<p><em>Project leaders: Twesha Singh and Ritvika Perla</em></p>
+<p><em>Team members: Soham Gupta, Shivam Loyalka, Pranjal Sabuwala, Rithvika Venkatraman, Swaroop Kadiyam</em></p>
+
+AI screening tools for diabetic retinopathy and skin cancer can bring specialist level detection into primary care, but only if they reach the communities that need them most. This project identifies where those tools would do the most good in Dallas County and builds the case for putting them there.
+
+<h4>Featured tool: DFW Health Atlas</h4>
+
+The team built an interactive map of the Dallas Fort Worth area that brings together diabetes burden, social vulnerability, clinic and care locations, shortage areas, and specialty access in one place. The map was built by Swaroop Kadiyam.
+
+<p><a class="btn btn-primary" href="https://swaroopk13.github.io/Advocacyproject/" target="_blank">Open the DFW Health Atlas</a></p>
+
+<iframe src="https://swaroopk13.github.io/Advocacyproject/" width="100%" height="600" style="border:1px solid #e3e3e3; border-radius:8px;" title="DFW Health Atlas" loading="lazy"></iframe>
+
+<h4>Deliverables</h4>
+
+1. **Interactive access map.** A tract or ZIP level map of Dallas County showing diabetes burden, social vulnerability (SVI), clinic locations, shortage areas, and specialty access indicators.
+2. **AI Screening Equity Index.** A composite score ranking neighborhoods by disease burden, vulnerability, and access barriers.
+3. **Policy brief.** A two to four page summary of findings, evidence, and recommendations.
+4. **Pilot site recommendation.** The top three to five community areas or clinic catchment areas for an initial pilot.
+5. **Workflow proposal.** A screen to specialist pathway for diabetic retinopathy and suspicious skin lesions.
+6. **Cost benefit scenario calculator.** Conservative, base, and optimistic scenarios built on transparent assumptions.
+</div>
+
+## Cardiovascular Disease Prediction
+
+<div class="card">
+<p><em>Project leaders: Sriram Siva and Gokul Kiliparthi</em></p>
+<p><em>Team members: Dhilan Avula, Srikrithi Appikatla, Neha Manikandan, Rhea Jha, Samhithaa Sivakumar, Tanvi Chakka, Venkat Narra, Abhikarthi Appikatla</em></p>
+
+Standard cardiovascular risk models leave out many of the social and psychosocial factors that shape who actually develops heart disease and who gets preventive care. This project turns a 40 study evidence review into a screening tool and an implementation plan that connects high risk patients to prevention.
+
+<h4>Deliverables</h4>
+
+1. **Define the evidence gap: CVD Prediction Evidence Brief.** A one to two page summary of the 40 study review showing that standard predictors remain central, socioeconomic and psychosocial factors are underused, and machine learning often offers only modest gains.
+2. **Build the tool: CVD Risk and Access Check.** A one page patient and clinic screening tool that pairs conventional risk assessment with access barriers such as transportation, food access, language needs, missed appointments, and stress.
+3. **Design the workflow: Screen to Prevention Workflow.** A clear process from high CVD risk identification to an access barrier screen, referral, and follow up.
+4. **Make the policy case: Clinic and Payer Implementation Proposal.** A two to three page proposal for a community clinic, Medicare Advantage plan, or Medicaid program describing where the tool should be piloted, who should receive it, and the safeguards needed for implementation.
+</div>

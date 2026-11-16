@@ -1,0 +1,70 @@
+---
+pagetitle: "ATLAS Research Program"
+---
+
+<div class="hero">
+<div class="hero-logo"><img src="images/logo-white.png" alt="ATLAS logo"></div>
+<div class="hero-text">
+<div class="eyebrow">Advocates in Technology, Leadership, and Science</div>
+<h1>Real research.<br>Real impact.<br>Starting now.</h1>
+<p class="lead">ATLAS is a research mentorship program empowering future scientists through quantitative medicine, AI, and public health.</p>
+<a class="btn-atlas" href="research.html">Explore our research</a>
+<a class="btn-atlas-outline" href="join.html">Join ATLAS</a>
+</div>
+</div>
+
+<div class="stats">
+<div class="stat"><strong>25</strong><span>student researchers</span></div>
+<div class="stat"><strong>6</strong><span>research projects</span></div>
+<div class="stat"><strong>5</strong><span>conferences presented</span></div>
+<div class="stat"><strong>2</strong><span>advocacy projects</span></div>
+</div>
+
+<div class="section-label">Who we are</div>
+
+## Training the next generation of health researchers
+
+ATLAS trains high school and undergraduate students to do real biomedical and public health research. Students learn graduate-level biostatistics, synthesize published evidence, analyze data, and present their findings at national and international conferences. Then they put those skills to work building tools for disease prevention, early diagnosis, and better access to care.
+
+<figure class="feature-photo">
+<img src="images/hero.jpg" alt="ATLAS researchers Siddharth Mothukuri and Rithvika Venkatraman presenting at Stanford Lean Healthcare">
+<figcaption>Siddharth Mothukuri and Rithvika Venkatraman giving an oral presentation at the Stanford Lean Healthcare conference.</figcaption>
+</figure>
+
+<div class="section-label">What we do</div>
+
+## From question to conference to community
+
+<div class="grid-2">
+<div class="card">
+<div class="icon"><i class="fa fa-chart-line"></i></div>
+<h4>Research training</h4>
+Students learn R and Python, ROC and AUC analysis, predictive values, risk and hazard ratios, nonparametric testing, and meta-analytic pooling, all applied to their own research questions.
+</div>
+
+<div class="card">
+<div class="icon"><i class="fa fa-book-open"></i></div>
+<h4>Evidence synthesis</h4>
+Teams carry out systematic reviews, meta-analyses, and scoping reviews on cancer, cardiovascular disease, neurological disease, and AI in medicine.
+</div>
+
+<div class="card">
+<div class="icon"><i class="fa fa-balance-scale"></i></div>
+<h4>Health equity and advocacy</h4>
+Every project asks who is left behind. Students turn their evidence into policy briefs and practical tools for public health decision makers.
+</div>
+
+<div class="card">
+<div class="icon"><i class="fa fa-microphone"></i></div>
+<h4>Research communication</h4>
+Students build posters and oral presentations and present at conferences hosted by Harvard, Stanford, the University of Pennsylvania, and the Mathematical Association of America.
+</div>
+</div>
+
+<div class="cta-band">
+<div>
+<h3>See our students in action</h3>
+<p>Browse conference photos and the full list of presentations.</p>
+</div>
+<a class="btn-atlas" href="presentations.html">View presentations</a>
+</div>

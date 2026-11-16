@@ -1,0 +1,60 @@
+---
+title: "People"
+---
+
+```{r, include = FALSE}
+# Put headshots in images/people/ named like the file below (for example shivam.jpg).
+# If a photo is missing, the card shows the person's initials instead.
+person <- function(name, role, photo = NULL, bio = "", class = "") {
+  initials <- paste(substr(strsplit(name, " ")[[1]], 1, 1), collapse = "")
+  img <- if (!is.null(photo) && file.exists(file.path("images/people", photo)))
+    sprintf('<img src="images/people/%s" alt="%s">', photo, name) else
+    sprintf('<div class="avatar">%s</div>', initials)
+  htmltools::HTML(sprintf(
+    '<div class="card person %s">%s<div><h4>%s</h4><p>%s</p>%s</div></div>',
+    class, img, name, role, if (nzchar(bio)) paste0("<p>", bio, "</p>") else ""))
+}
+```
+
+## Leadership
+
+```{r, echo = FALSE}
+person("Janvi Garg", "<span class='tag'>Founder and Director</span>", "janvi.jpg", class = "leader-card",
+      bio = 
+       paste0("MS Biostatistics student at Columbia University. Trains and mentors every ATLAS researcher.",
+              "<br><br>Email: <a href='mailto:ijanvgarg@gmail.com'>ijanvgarg@gmail.com</a>",
+              "<br>Phone: <a href='tel:+14696050194'>(469) 605-0194</a>",
+              "<br>Instagram: <a href='https://www.instagram.com/atlas.researchprogram' target='_blank'>@atlas.researchprogram</a>"))
+```
+
+## Researchers
+
+```{r, echo = FALSE}
+htmltools::div(class = "people-grid",
+  person("Abhikarthi Appikatla", "<b>Advocacy:</b> Cardiovascular Disease Prediction", "abhikarthi.jpg"),
+  person("Srikrithi Appikatla", "<b>Research:</b> Cardiovascular disease prediction (general and women focused reviews)<br><b>Advocacy:</b> Cardiovascular Disease Prediction", "srikrithi.jpg"),
+  person("Dhilan Avula", "<b>Research:</b> Cardiovascular disease prediction (general and women focused reviews)<br><b>Advocacy:</b> Cardiovascular Disease Prediction", "dhilan.jpg"),
+  person("Raga Battu", "<b>Research:</b> AI diabetic retinopathy screening", "raga.jpg"),
+  person("Tanvi Chakka", "<b>Research:</b> Inflammatory and nutritional biomarker signatures in NSCLC immunotherapy<br><b>Advocacy:</b> Cardiovascular Disease Prediction", "tanvi.jpg"),
+  person("Soham Gupta", "<b>Research:</b> Parkinson's disease progression<br><b>Advocacy:</b> AI Diabetes and Skin Cancer Screening", "soham.jpg"),
+  person("Rithvik Inampudi", "<b>Research:</b> AI diabetic retinopathy screening", "rithvik.jpg"),
+  person("Janani Jayaraj", "<b>Research:</b> Thyroid research", "janani.jpg"),
+  person("Rhea Jha", "<b>Research:</b> Parkinson's disease progression<br><b>Advocacy:</b> Cardiovascular Disease Prediction", "rhea.jpg"),
+  person("Swaroop Kadiyam", "<b>Research:</b> AI and equity in skin cancer diagnosis<br><b>Advocacy:</b> AI Diabetes and Skin Cancer Screening", "swaroop.jpg"),
+  person("Gokul Kiliparthi", "<b>Research:</b> Thyroid research<br><b>Advocacy:</b> Cardiovascular Disease Prediction (leader)", "gokul.jpg"),
+  person("Shivam Loyalka", "<b>Research:</b> Inflammatory and nutritional biomarker signatures in NSCLC immunotherapy<br><b>Advocacy:</b> AI Diabetes and Skin Cancer Screening", "shivam.jpg"),
+  person("Neha Manikandan", "<b>Research:</b> Thyroid research<br><b>Advocacy:</b> Cardiovascular Disease Prediction", "neha.jpg"),
+  person("Siddharth Mothukuri", "<b>Research:</b> AI and equity in skin cancer diagnosis", "sid.jpg"),
+  person("Venkat Narra", "<b>Research:</b> Cardiovascular disease prediction (general and women focused reviews)<br><b>Advocacy:</b> Cardiovascular Disease Prediction", "venkat.jpg"),
+  person("Arjun Paunikar", "<b>Research:</b> Parkinson's disease progression", "arjun.jpg"),
+  person("Ritvika Perla", "<b>Research:</b> Thyroid research<br><b>Advocacy:</b> AI Diabetes and Skin Cancer Screening (leader)", "ritvika_perla.jpg"),
+  person("Abhinav Premkumar", "<b>Research:</b> AI diabetic retinopathy screening", "abhinav.jpg"),
+  person("Pranjal Sabuwala", "<b>Research:</b> AI diabetic retinopathy screening<br><b>Advocacy:</b> AI Diabetes and Skin Cancer Screening", "pranjal.jpg"),
+  person("Twesha Singh", "<b>Research:</b> Inflammatory and nutritional biomarker signatures in NSCLC immunotherapy<br><b>Advocacy:</b> AI Diabetes and Skin Cancer Screening (leader)", "twesha.jpg"),
+  person("Sriram Siva", "<b>Research:</b> Inflammatory and nutritional biomarker signatures in NSCLC immunotherapy<br><b>Advocacy:</b> Cardiovascular Disease Prediction (leader)", "sriram.jpg"),
+  person("Samhithaa Sivakumar", "<b>Research:</b> Parkinson's disease progression<br><b>Advocacy:</b> Cardiovascular Disease Prediction", "samhitha.jpg"),
+  person("Nandita Sriram", "<b>Research:</b> Cardiovascular disease prediction (general and women focused reviews)", "nandita.jpg"),
+  person("Rithvika Venkatraman", "<b>Research:</b> AI and equity in skin cancer diagnosis<br><b>Advocacy:</b> AI Diabetes and Skin Cancer Screening", "rithvika.jpg"),
+  person("Saisreeda Vutkuri", "<b>Research:</b> AI and equity in skin cancer diagnosis", "saisreeda.jpg")
+)
+```

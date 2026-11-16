@@ -1,0 +1,33 @@
+---
+title: "Gallery"
+---
+
+Moments from ATLAS students presenting their research across the country.
+
+```{r, echo = FALSE, results = "asis"}
+# Drop any .jpg, .jpeg, .png, or .webp file into images/gallery/ and rebuild.
+# Name files like this, using two underscores between the event and each person:
+#   UPenn_MABC_2026__Arjun_Paunikar__Soham_Gupta.jpg
+# The caption becomes "UPenn MABC 2026" with "Arjun Paunikar and Soham Gupta" below it.
+photos <- list.files("images/gallery", pattern = "\\.(jpe?g|png|webp)$",
+                     ignore.case = TRUE)
+join_names <- function(x) {
+  if (length(x) <= 1) return(paste(x, collapse = ""))
+  if (length(x) == 2) return(paste(x, collapse = " and "))
+  paste0(paste(x[-length(x)], collapse = ", "), ", and ", x[length(x)])
+}
+if (length(photos) == 0) {
+  cat("Photos coming soon.")
+} else {
+  cat('<div class="gallery">')
+  for (p in sort(photos)) {
+    parts <- strsplit(tools::file_path_sans_ext(p), "__", fixed = TRUE)[[1]]
+    parts <- gsub("_", " ", parts)
+    event <- parts[1]
+    names <- join_names(parts[-1])
+    cat(sprintf('<figure><img src="images/gallery/%s" alt="%s" loading="lazy"><figcaption><strong>%s</strong>%s</figcaption></figure>',
+                utils::URLencode(p), paste(event, names), event, names))
+  }
+  cat('</div>')
+}
+```

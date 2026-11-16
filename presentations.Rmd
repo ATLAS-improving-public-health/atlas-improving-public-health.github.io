@@ -1,0 +1,25 @@
+---
+title: "Presentations"
+---
+
+ATLAS students have presented their research at these conferences.
+
+| Conference | Researchers | Topic |
+|---|---|---|
+| Stanford Lean Healthcare (oral) | Siddharth Mothukuri, Rithvika Venkatraman | Closing the Equity Gap in Skin Cancer Diagnosis Through AI-Assisted Primary Care: A Process Improvement Framework |
+| Harvard PQG | Raga Battu | Autonomous Artificial Intelligence vs. Traditional Specialist Referral for Diabetic Retinopathy Screening in Medicare Beneficiaries: A Systematic Scoping Review |
+| Harvard T.H. Chan Women's Health Conference | Nandita Sriram, Dhilan Avula | Invisible Risks: How Current Cardiovascular Prediction Models Underserve Women Across Socioeconomic and Psychosocial Contexts |
+| Harvard T.H. Chan Women's Health Conference, Online Abstract Gallery | Tanvi Chakka, Twesha Singh, Sriram Siva, Shivam Loyalka | Computational Synthesis of Inflammatory and Nutritional Biomarker Signatures for Precision Risk Stratification in NSCLC Immunotherapy: A Translational Bioinformatics Approach |
+| Harvard T.H. Chan Women's Health Conference, Online Abstract Gallery | Janani Jayaraj, Neha Manikandan, Gokul Kiliparthi, Ritvika Perla | Thyroid research ([view poster](https://whc2026boston.kontainer.com/folder/2247983/file/24269754#token=SPgqONtipu&type=direct){target="_blank"}) |
+| MAA MathFest 2026, Boston | Venkat Narra, Nandita Sriram, Srikrithi Appikatla | Evaluating the Predictive Value of Biomarkers, Genetic Scores, and Machine Learning in Cardiovascular Risk Prediction Models: A Systematic Review |
+| MAA MathFest 2026, Boston | Abhinav Premkumar, Rithvik Inampudi, Raga Battu | Autonomous Artificial Intelligence vs. Traditional Specialist Referral for Diabetic Retinopathy Screening in Medicare Beneficiaries: A Systematic Scoping Review |
+| UPenn MidAtlantic Bioinformatics Conference | Arjun Paunikar, Soham Gupta, Samhithaa Sivakumar | A Meta-Analysis: The Impact of Patient-Level Risk Factors on the Rate of Neurodegenerative Progression when using Dopaminergic Therapy |
+| UPenn MidAtlantic Bioinformatics Conference | Tanvi Chakka, Twesha Singh, Sriram Siva, Shivam Loyalka | Computational Synthesis of Inflammatory and Nutritional Biomarker Signatures for Precision Risk Stratification in NSCLC Immunotherapy: A Translational Bioinformatics Approach |
+
+## Upcoming
+
+| Conference | Researchers | Topic |
+|---|---|---|
+| Oxford Global Health (upcoming) | Sriram Siva | To be announced |
+
+See photos from these events in the [gallery](gallery.html).

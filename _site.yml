@@ -1,0 +1,35 @@
+name: "atlas-research"
+output_dir: "docs"
+navbar:
+  title: "ATLAS"
+  left:
+    - text: "About"
+      href: about.html
+    - text: "Research"
+      href: research.html
+    - text: "Advocacy"
+      href: advocacy.html
+    - text: "People"
+      href: people.html
+    - text: "Presentations"
+      href: presentations.html
+    - text: "Gallery"
+      href: gallery.html
+    - text: "Join"
+      href: join.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:ijanvgarg@gmail.com
+    - icon: fa-instagram fa-lg
+      href: https://www.instagram.com/atlas.researchprogram
+    - icon: fa-phone fa-lg
+      href: tel:+14696050194
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/janvi-garg-3b1069219
+output:
+  html_document:
+    theme: flatly
+    css: styles.css
+    include:
+      in_header: header.html
+      after_body: footer.html
